@@ -1,14 +1,10 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Encoder;
-using Encoder.Encoding;
+﻿using Encoder.Encoding;
 using Encoder.Input;
 using Encoder.Output;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Encoder.Tests
 {

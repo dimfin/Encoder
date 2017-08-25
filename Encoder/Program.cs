@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Castle.Windsor;
+using Castle.Windsor.Configuration.Interpreters;
 using Encoder.Encoding;
 using Encoder.Input;
 using Encoder.Output;
+using System;
 
 namespace Encoder
 {
@@ -55,13 +57,15 @@ namespace Encoder
 
         /// <summary>
         /// Default constructor
-        /// Uses default reader, encoder and writer
+        /// Uses reader, encoder and writer defined in app.config file
         /// </summary>
         public Program()
         {
-            reader = new ConsoleTextReader();
-            encoder = new T9TextEncoder();
-            writer = new CaseNumberDecorator(new ConsoleTextWriter());
+            var container = new WindsorContainer(new XmlInterpreter());
+
+            reader = container.Resolve<ITextReader>();
+            encoder = container.Resolve<ITextEncoder>();
+            writer = container.Resolve<ITextWriter>();
         }
 
         /// <summary>
