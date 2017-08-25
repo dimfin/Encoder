@@ -61,11 +61,18 @@ namespace Encoder
         /// </summary>
         public Program()
         {
-            var container = new WindsorContainer(new XmlInterpreter());
+            try
+            {
+                var container = new WindsorContainer(new XmlInterpreter());
 
-            reader = container.Resolve<ITextReader>();
-            encoder = container.Resolve<ITextEncoder>();
-            writer = container.Resolve<ITextWriter>();
+                reader = container.Resolve<ITextReader>();
+                encoder = container.Resolve<ITextEncoder>();
+                writer = container.Resolve<ITextWriter>();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Configuration error:\r\n{0}", e.Message);
+            }
         }
 
         /// <summary>
