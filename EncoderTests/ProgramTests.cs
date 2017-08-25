@@ -1,6 +1,7 @@
 ﻿using Encoder.Encoding;
 using Encoder.Input;
 using Encoder.Output;
+using Encoder.Output.Decorators;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;

@@ -63,6 +63,10 @@
       <Project>{ff8d7054-ce76-4d5a-b6a9-116c84430fb6}</Project>
       <Name>Console</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Decorators\Decorators.csproj">
+      <Project>{d686ef8e-17c7-4892-8968-4d7cb8afdc1c}</Project>
+      <Name>Decorators</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{51d2780f-35d5-41fe-a50c-8dfc2439b112}</Project>
       <Name>Interfaces</Name>

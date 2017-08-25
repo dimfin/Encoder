@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A06F2E8-6CA4-4925-B93F-E85482A77948}</ProjectGuid>
+    <ProjectGuid>{6512798D-9E94-4DCB-811E-65CA3320966E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EncoderTests</RootNamespace>
-    <AssemblyName>EncoderTests</AssemblyName>
+    <RootNamespace>DecoratorsTests</RootNamespace>
+    <AssemblyName>DecoratorsTests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -59,33 +59,20 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="ProgramTests.cs" />
+    <Compile Include="CaseNumberDecoratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Console\Console.csproj">
-      <Project>{ff8d7054-ce76-4d5a-b6a9-116c84430fb6}</Project>
-      <Name>Console</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Decorators\Decorators.csproj">
-      <Project>{d686ef8e-17c7-4892-8968-4d7cb8afdc1c}</Project>
+      <Project>{D686EF8E-17C7-4892-8968-4D7CB8AFDC1C}</Project>
       <Name>Decorators</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Encoder\Encoder.csproj">
-      <Project>{9F1B97E7-10BC-4FE0-BC2E-D8BB5CAB1E17}</Project>
-      <Name>Encoder</Name>
     </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{51d2780f-35d5-41fe-a50c-8dfc2439b112}</Project>
       <Name>Interfaces</Name>
     </ProjectReference>
-    <ProjectReference Include="..\T9Encoder\T9Encoder.csproj">
-      <Project>{b20bc6d4-c426-4125-85ee-8b7f42eb1209}</Project>
-      <Name>T9Encoder</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

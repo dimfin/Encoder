@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Encoder.Output.Decorators;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 
