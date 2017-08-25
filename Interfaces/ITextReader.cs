@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MobilePhone.Input
+namespace Encoder.Input
 {
     /// <summary>
     /// Interace for classes that read input strings

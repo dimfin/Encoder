@@ -1,4 +1,4 @@
-﻿namespace MobilePhone.Encoding
+﻿namespace Encoder.Encoding
 {
     /// <summary>
     /// Interface for classes that encode the input string to output one

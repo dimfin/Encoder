@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MobilePhone;
-using MobilePhone.Encoding;
-using MobilePhone.Input;
-using MobilePhone.Output;
+using Encoder;
+using Encoder.Encoding;
+using Encoder.Input;
+using Encoder.Output;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MobilePhone.Tests
+namespace Encoder.Tests
 {
     [TestClass()]
     public class ProgramTests

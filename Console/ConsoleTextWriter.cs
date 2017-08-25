@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MobilePhone.Output
+namespace Encoder.Output
 {
     /// <summary>
     /// Writes output string to console

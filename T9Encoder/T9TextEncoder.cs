@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace MobilePhone.Encoding
+namespace Encoder.Encoding
 {
     /// <summary>
     /// Encodes input strings to T9 coding (old SMS style) 

@@ -1,9 +1,9 @@
 ﻿using System;
-using MobilePhone.Encoding;
-using MobilePhone.Input;
-using MobilePhone.Output;
+using Encoder.Encoding;
+using Encoder.Input;
+using Encoder.Output;
 
-namespace MobilePhone
+namespace Encoder
 {
     /// <summary>
     /// Start point of the program

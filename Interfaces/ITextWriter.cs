@@ -1,4 +1,4 @@
-﻿namespace MobilePhone.Output
+﻿namespace Encoder.Output
 {
     /// <summary>
     /// Interface for classes that write output strings

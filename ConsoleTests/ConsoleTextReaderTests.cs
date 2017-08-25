@@ -1,12 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MobilePhone.Input;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace MobilePhone.Input.Tests
+namespace Encoder.Input.Tests
 {
     [TestClass()]
     public class ConsoleTextReaderTests

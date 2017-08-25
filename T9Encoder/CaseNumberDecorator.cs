@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MobilePhone.Output
+namespace Encoder.Output
 {
     /// <summary>
     /// Formats output as "Case #N: data" and passes to a nested ITextWriter

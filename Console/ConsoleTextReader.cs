@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MobilePhone.Input
+namespace Encoder.Input
 {
 
     /// <summary>
